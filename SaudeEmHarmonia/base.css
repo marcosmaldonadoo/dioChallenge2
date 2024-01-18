@@ -1,0 +1,143 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f1f1f1;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.menu {
+  width: 15%;
+  background-color: aqua;
+  padding: 10px 20px 0px;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu li {
+  margin-bottom: 10px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.wrapper {
+  display: flex;
+  flex: 1;
+  max-width: 100vw;
+}
+
+.main {
+  display: flex;
+  flex-flow: column;
+  flex: 1;
+}
+
+.header {
+  min-height: 150px;
+}
+
+.header img {
+  width: 100%;
+  height: auto;
+}
+
+.content {
+  background-color: white;
+  padding: 20px;
+}
+
+.footer {
+  background-color: #008c96;
+  min-height: 150px;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.footer img {
+  width: 150px;
+  height: auto;
+}
+
+.footer p {
+  margin-top: 10px;
+  font-size: 14px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #3498db;
+  color: #fff;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #e0e0e0;
+}
+
+form {
+  margin-top: 20px;
+  display: flex;
+  flex-flow: column;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  margin-bottom: 15px;
+  padding: 8px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #267bb5;
+}
+
+button[type="reset"] {
+  background-color: #e74c3c;
+}
+
+button[type="reset"]:hover {
+  background-color: #c0392b;
+}
